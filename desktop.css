@@ -32,8 +32,9 @@
   background-color:#DAB88B;
   grid-area: footer;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
+  justify-content: space-evenly;
 }
 
 #list{
@@ -105,6 +106,7 @@ th{
  border: 1px;
  color: rgba(0, 0, 0, 0.751);
  border: 2px dotted ;
+ font-family:'Noto Serif', serif; 
 }
 /* --------------------------- */
 /* link for piano */
@@ -113,9 +115,38 @@ th{
   border: 1px;
   color: rgba(0, 0, 0, 0.751);
   border: 2px dotted ;
+  font-family:'Noto Serif', serif;
 }
-.imges_footer{
-  width: 40vw;
-  height: 40vh;
-  position: relative;
+@keyframes imges_footer{
+  from{background-image: url(imges/me1.png);}
+  to{background-image: url(imges/me3.png);}
+  0%{transform: translateX(30px);}
+  100%{transform: translateX(100px);}
+}
+.imges_footer {
+  width: 20vw ;
+  height: 30vh ;
+  background-image:url(imges/me1.png) ;
+  background-size: 60% ;
+  animation-name: imges_footer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes img1{
+  from{background-image: url(imges/me3.png);}
+  to{background-image: url(imges/me5.png);}
+  0%{transform: translateX(30px);}
+  100%{transform: translateX(100px);}
+}
+
+.img1{
+  background-image: url(imges/me3.png);
+  width: 20vw;
+  height:30vh;
+  background-size: 60%;
+  animation-name: img1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
