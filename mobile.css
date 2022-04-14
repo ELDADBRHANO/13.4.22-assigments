@@ -18,7 +18,7 @@
   #sidebar{
     grid-area: sidebar;
     background-color: #A2B38B;
-    width: 15vh;
+    width: 10vw;
   }
   
   #main{
@@ -30,8 +30,8 @@
     background-color:#DAB88B;
     grid-area: footer;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
   }
   
   #list{
@@ -56,7 +56,7 @@
     width: 10vw;
     height: 5vh;
     display: flex;
-    justify-content: first baseline;
+    transform: translateX(10px);
   }
   /* github logo */
   #git_logo{
@@ -71,6 +71,8 @@
     height: 5vh;
     display: flex;
     justify-content: first baseline;
+    transform: translateX(10px);
+
   }
   /*  inside the footer */
   #email{
@@ -88,30 +90,67 @@
   #me1{
     border-radius: 70%;
     height: 20vh;
-    width: 20vw;
+    width: 40vw;
   }
   #me1:hover{
     transform: scale(1.5);
     filter: drop-shadow(5px 5px 4px  #FFFBE7);
   }
   #pargraph{
-   width: 50vw;
+   width: 100vw;
    border: 1px;
    color: rgba(0, 0, 0, 0.751);
-   border: 3px solid ;
+   /* border: 3px solid ; */
+   
+   
   }
 
 a{
   color: black;
   width: 30vw;
-  border: 2px;
   color: rgba(0, 0, 0, 0.751);
-  border: 5px solid ;
 }
 .mos{
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  flex-direction: column;
+  
+}
+.mof{
+  display: flex;
+  flex-direction: column;
+}
+@keyframes imges_footer{
+  from{background-image: url(imges/me1.png);}
+  to{background-image: url(imges/me3.png);}
+  0%{transform: translateX();}
+  100%{transform: translateX(100px);}
+}
+.imges_footer {
+  width: 10vw ;
+  height: 10vh ;
+  background-image:url(imges/me1.png) ;
+  background-size: 100% ;
+  animation-name: imges_footer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes img1{
+  from{background-image: url(imges/me3.png);}
+  to{background-image: url(imges/me5.png);}
+  0%{transform: translateX(30px);}
+  100%{transform: translateX(100px);}
+}
+
+.img1{
+  background-image: url(imges/me3.png);
+  width: 10vw;
+  height:10vh;
+  background-size: 100%;
+  animation-name: img1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
   
