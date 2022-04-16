@@ -150,3 +150,19 @@ th{
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+@keyframes img2 {
+  0% {background-image: url(imges/fam.png);}
+  100%{background-image: url(imges/fam2.png);}
+}
+
+.img2{
+  background-image: url(imges/fam.png);
+  width: 20vw;
+  height:30vh;
+  background-size: 60%;
+  animation-name: img2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
