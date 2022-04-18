@@ -14,6 +14,7 @@
     grid-area: header;
     background-color: #DAB88B;
   }
+
   #sidebar{
     grid-area: sidebar;
     background-color: #A2B38B;
@@ -26,12 +27,13 @@
     overflow: hidden;
     transition: 3s;
   }
+
   #sidebar:hover{
     color: green;
     height: 85vh;
     width: 25vw;
   }
-  
+
   #main{
     grid-area: main;
     background-color: #F0ECE3;
@@ -52,15 +54,18 @@
     list-style-type: none;
     align-content: center;
   }
+
   a{
     color: #FFFBE7;
     text-decoration: none;
   }
+
   /* inside the footer */
   th{
     color: #FFFBE7;
     font-size: large;
   }
+
   /* -------------------------------- */
   /* instegram logo */
   #ins_logo{
@@ -69,6 +74,7 @@
     display: flex;
     transform: translateX(10px);
   }
+
   /* github logo */
   #git_logo{
     width: 10vw;
@@ -76,6 +82,7 @@
     display: flex;
     justify-content:center;
   }
+
   /* linkedin logo */
   #link_logo{
     width: 10vw;
@@ -85,6 +92,7 @@
     transform: translateX(10px);
 
   }
+
   /*  inside the footer */
   #email{
     color: rgba(255, 255, 19, 0.733);
@@ -103,10 +111,12 @@
     height: 20vh;
     width: 40vw;
   }
+
   #me1:hover{
     transform: scale(1.5);
     filter: drop-shadow(5px 5px 4px  #FFFBE7);
   }
+
   #pargraph{
    width: 100vw;
    border: 1px;
@@ -119,22 +129,25 @@ a{
   width: 30vw;
   color: rgba(0, 0, 0, 0.751);
 }
+
 #mos{
   display: flex;
   flex-direction: column;
   width: 100vw;
-  
 }
+
 #mof{
   display: flex;
   flex-direction: column;
 }
+
 @keyframes imges_footer{
   from{background-image: url(imges/me1.png);}
   to{background-image: url(imges/me3.png);}
   0%{transform: translateX();}
   100%{transform: translateX(100px);}
 }
+
 #imges_footer {
   width: 10vw ;
   height: 10vh ;
@@ -145,6 +158,7 @@ a{
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
 @keyframes img1{
   from{background-image: url(imges/me3.png);}
   to{background-image: url(imges/me5.png);}

@@ -51,19 +51,23 @@
   list-style-type: none;
   align-content: center;
 }
+
 a{
   color: #fd9400;
   text-decoration: none;
 }
+
 /* inside the footer */
 #email{
   color: rgba(255, 255, 19, 0.733);
   font-size: large;
 }
+
 th{
   color: #FFFBE7;
   font-size: large;
 }
+
 /* -------------------------------- */
 /* instegram logo */
 #ins_logo{
@@ -72,6 +76,7 @@ th{
   display: flex;
   justify-content: first baseline;
 }
+
 /* github logo */
 #git_logo{
   width: 5vw;
@@ -79,6 +84,7 @@ th{
   display: flex;
   justify-content:center;
 }
+
 /* ---------------------------- */
 /* linkedin logo */
 #link_logo{
@@ -87,6 +93,7 @@ th{
   display: flex;
   justify-content: first baseline;
 }
+
 /* name over the paragraph */
 #myname{
   display: flex;
@@ -102,10 +109,12 @@ th{
   height: 20vh;
   width: 10vw;
 }
+
 #me1:hover{
   transform: scale(1.5);
   filter: drop-shadow(5px 5px 4px  #fd9400);
 }
+
 /* ------------------------------------ */
 /* pargraph of my resume */
 #pargraph{
@@ -115,6 +124,7 @@ th{
  border: 2px dotted ;
  font-family:'Noto Serif', serif; 
 }
+
 /* --------------------------- */
 /* link for piano */
 #mos{
@@ -124,12 +134,14 @@ th{
   border: 2px dotted ;
   font-family:'Noto Serif', serif;
 }
+
 @keyframes imges_footer{
   from{background-image: url(imges/me1.png);}
   to{background-image: url(imges/me3.png);}
   0%{transform: translateX(30px);}
   100%{transform: translateX(100px);}
 }
+
 #imges_footer {
   width: 20vw ;
   height: 30vh ;
@@ -140,6 +152,7 @@ th{
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
 @keyframes img1{
   from{background-image: url(imges/me3.png);}
   to{background-image: url(imges/me5.png);}
