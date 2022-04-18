@@ -1,3 +1,6 @@
+*{
+  margin: 0%;
+}
 .container{
   width: 100vw;
   height: 100vh;
@@ -18,7 +21,11 @@
 #sidebar{
   grid-area: sidebar;
   background-color: #A2B38B;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 10vh;
+  font-size: larger;
 }
 
 #main{
@@ -110,7 +117,7 @@ th{
 }
 /* --------------------------- */
 /* link for piano */
-.mos{
+#mos{
   width: 30vw;
   border: 1px;
   color: rgba(0, 0, 0, 0.751);
@@ -123,7 +130,7 @@ th{
   0%{transform: translateX(30px);}
   100%{transform: translateX(100px);}
 }
-.imges_footer {
+#imges_footer {
   width: 20vw ;
   height: 30vh ;
   background-image:url(imges/me1.png) ;
