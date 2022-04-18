@@ -16,6 +16,7 @@
 #header{
   grid-area: header;
   background-color: #DAB88B;
+  padding-left: 15vw;
 }
 
 #sidebar{
@@ -94,10 +95,13 @@ th{
   justify-content: first baseline;
 }
 
+#sidebar_icon{
+  display: none;
+}
+
 /* name over the paragraph */
 #myname{
   display: flex;
-  gap: 50px;
   color: #A2B38B;
   border: 1px solid #A2B38B;
 }

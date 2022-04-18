@@ -1,3 +1,8 @@
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container{
     width: 100vw;
     height: 100vh;
@@ -16,7 +21,7 @@
   }
 
   #sidebar{
-    grid-area: sidebar;
+    /* grid-area: sidebar;
     background-color: #A2B38B;
     height: 5vh;
     width: 10vw;
@@ -25,14 +30,15 @@
     align-items: right; 
     line-height: 10vh;
     overflow: hidden;
-    transition: 3s;
+    transition: 3s; */
+    display: none;
   }
 
-  #sidebar:hover{
+  /* #sidebar:hover{
     color: green;
     height: 85vh;
     width: 25vw;
-  }
+  } */
 
   #main{
     grid-area: main;
@@ -91,6 +97,14 @@
     justify-content: first baseline;
     transform: translateX(10px);
 
+  }
+
+  #sidebar_icon{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(15px);
   }
 
   /*  inside the footer */
