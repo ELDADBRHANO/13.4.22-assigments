@@ -15,13 +15,13 @@
 
 #header{
   grid-area: header;
-  background-color: #DAB88B;
+  background-color: #E9EFC0;
   /* padding-left: 15vw; */
 }
 
 .sidebar{
   grid-area: sidebar;
-  background-color: #A2B38B;
+  background-color: #83BD75;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,13 +31,13 @@
 
 #main{
   grid-area: main;
-  background-color: #F0ECE3;
+  background-color: #B4E197;
   display: flex;
   justify-content: space-between;
 }
 
 #footer{
-  background-color:#DAB88B;
+  background-color:#4E944F;
   grid-area: footer;
   display: flex;
   /* flex-direction: column; */
@@ -160,5 +160,29 @@ th{
   animation-iteration-count: infinite;
   animation-direction: alternate;
   background-size: cover;
-  
+  display: none;
+}
+.photo_fam{
+  display: flex;
+}
+@keyframes fam1 {
+  0%{background-image: url(imges/fam.png);background-size: cover;}
+  25%{background-image: url(imges/fam2.png);background-size: cover;}
+  50%{background-image: url(imges/me1.png);background-size: cover;}
+  100%{background-image: url(imges/me5.png);background-size: cover;}
+}
+.photo_fam{
+  width: 20vw;
+  height: 40vh;
+  align-self: flex-end;
+  background-image: url(imges/fam.png);
+  animation-name: fam1 ;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  grid-area: main;
+  animation-direction: alternate;
+}
+#gallery2{
+  width: 3vw;
+  height: 3vw;
 }

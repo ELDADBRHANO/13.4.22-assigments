@@ -185,6 +185,12 @@ a{
 li{
   display: flex;
 }
+.photo_fam{
+  display: none;
+}
+#gallery2{
+  display: none;
+}
 
 
 
