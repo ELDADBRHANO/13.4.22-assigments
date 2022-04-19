@@ -125,7 +125,7 @@ th{
  width: 30vw;
  border: 1px;
  color: rgba(0, 0, 0, 0.751);
- border: 2px dotted ;
+ /* border: 2px dotted ; */
  font-family:'Noto Serif', serif; 
  padding: 5vh;
 }
@@ -136,7 +136,7 @@ th{
   width: 30vw;
   border: 1px;
   color: rgba(0, 0, 0, 0.751);
-  border: 2px dotted ;
+  /* border: 2px dotted ; */
   font-family:'Noto Serif', serif;
   padding: 5vh;
 }
@@ -186,3 +186,12 @@ th{
   width: 3vw;
   height: 3vw;
 }
+#whatsapp{
+  width: 5vw;
+  height: 10vh;
+}
+#mail{
+  width: 5vw;
+  height: 10vh;
+}
+

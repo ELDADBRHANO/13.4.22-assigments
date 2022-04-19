@@ -52,9 +52,10 @@ body{
     background-color:#4E944F;
     grid-area: footer;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 2vw;
     height: 10vh;
+    justify-content: center;
   }
   
   #list{
@@ -191,7 +192,16 @@ li{
 #gallery2{
   display: none;
 }
-
+#whatsapp{
+  width: 10vw;
+  height: 5vh;
+  align-self: center;
+}
+#mail{
+  width: 10vw;
+  height: 5vh;
+  align-self: center;
+}
 
 
   
