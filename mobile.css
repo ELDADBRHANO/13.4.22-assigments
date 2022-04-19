@@ -18,7 +18,7 @@ body{
   
   #header{
     grid-area: header;
-    background-color: #DAB88B;
+    background-color: #E9EFC0;
     display: flex;
     justify-content:space-evenly;
   }
@@ -45,11 +45,11 @@ body{
 
   #main{
     grid-area: main;
-    background-color: #F0ECE3;
+    background-color: #B4E197;
   }
   
   #footer{
-    background-color:#DAB88B;
+    background-color:#4E944F;
     grid-area: footer;
     display: flex;
     align-items: flex-start;
