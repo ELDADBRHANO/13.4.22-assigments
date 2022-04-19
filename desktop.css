@@ -16,10 +16,10 @@
 #header{
   grid-area: header;
   background-color: #DAB88B;
-  padding-left: 15vw;
+  /* padding-left: 15vw; */
 }
 
-#sidebar{
+.sidebar{
   grid-area: sidebar;
   background-color: #A2B38B;
   display: flex;
@@ -127,6 +127,7 @@ th{
  color: rgba(0, 0, 0, 0.751);
  border: 2px dotted ;
  font-family:'Noto Serif', serif; 
+ padding: 5vh;
 }
 
 /* --------------------------- */
@@ -137,56 +138,27 @@ th{
   color: rgba(0, 0, 0, 0.751);
   border: 2px dotted ;
   font-family:'Noto Serif', serif;
-}
-
-@keyframes imges_footer{
-  from{background-image: url(imges/me1.png);}
-  to{background-image: url(imges/me3.png);}
-  0%{transform: translateX(30px);}
-  100%{transform: translateX(100px);}
-}
-
-#imges_footer {
-  width: 20vw ;
-  height: 30vh ;
-  background-image:url(imges/me1.png) ;
-  background-size: 60% ;
-  animation-name: imges_footer;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes img1{
-  from{background-image: url(imges/me3.png);}
-  to{background-image: url(imges/me5.png);}
-  0%{transform: translateX(30px);}
-  100%{transform: translateX(100px);}
-}
-
-.img1{
-  background-image: url(imges/me3.png);
-  width: 20vw;
-  height:30vh;
-  background-size: 60%;
-  animation-name: img1;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  padding: 5vh;
 }
 
 @keyframes img2 {
-  0% {background-image: url(imges/fam.png);}
+  /* 0% {background-image: url(imges/fam.png);}
+  100%{background-image: url(imges/fam2.png);} */
+  0%{background-image: url(imges/me1.png);}
+  20%{background-image: url(imges/me3.png);}
+  60%{background-image: url(imges/fam.png);}
   100%{background-image: url(imges/fam2.png);}
 }
+
 
 .img2{
   background-image: url(imges/fam.png);
   width: 20vw;
-  height:30vh;
-  background-size: 60%;
+  height:100vh;
   animation-name: img2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  background-size: cover;
+  
 }
