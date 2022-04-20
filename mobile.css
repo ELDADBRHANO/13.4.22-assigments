@@ -2,8 +2,8 @@ body{
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid black; */
 }
+/* container */
 .container{
     width: 100vw;
     height: 100vh;
@@ -15,14 +15,28 @@ body{
     'footer footer footer';
     gap: 1vh;
   }
+  /* ------------------------------------------- */
   
+
+
+
+
+  /* header */
   #header{
     grid-area: header;
     background-color: #E9EFC0;
     display: flex;
     justify-content:space-evenly;
   }
+/* ------------------------------------ */
 
+
+
+
+
+
+
+/* sidebar on displayed none in small screen */
   .sidebar{
     /* grid-area: sidebar;
     background-color: #A2B38B;
@@ -36,18 +50,29 @@ body{
     transition: 3s; */
     display: none;
   }
+  /* --------------------------------------------- */
 
-  /* #sidebar:hover{
-    color: green;
-    height: 85vh;
-    width: 25vw;
-  } */
 
+
+
+
+
+
+  /* main */
   #main{
     grid-area: main;
     background-color: #B4E197;
   }
+
+/* --------------------------------------- */
   
+
+
+
+
+
+
+/* footer */
   #footer{
     background-color:#4E944F;
     grid-area: footer;
@@ -57,7 +82,14 @@ body{
     height: 10vh;
     justify-content: center;
   }
+  /* ------------------------------------------- */
   
+
+
+
+
+
+  /* unorder list for logos inside the heder */
   #list{
     display: flex;
     flex-direction: row;
@@ -65,51 +97,81 @@ body{
     list-style-type: none;
     
   }
+  /* ----------------------------------------------- */
 
+
+
+
+
+
+  
+/* links color\sidebar\header */
   a{
     color: #FFFBE7;
     text-decoration: none;
-    /* display: flex; */
   }
+  /* --------------------------------------- */
+
+
+
+
+
+
 
   /* inside the footer */
   th{
     color: #FFFBE7;
     font-size: 3vh;
   }
-
   /* -------------------------------- */
+
+
+
+
+
+
+
   /* instegram logo */
   #ins_logo{
     width: 15vw;
     height: 10vh;
     display: flex;
-    /* transform: translateX(10px); */
   }
+/* ---------------------------------------- */
+
+
+
+
+
 
   /* github logo */
   #git_logo{
     width: 15vw;
     height: 10vh;
     display: flex;
-    /* justify-content:center; */
   }
+/* --------------------------------------- */
+
+
+
+
+
+
 
   /* linkedin logo */
   #link_logo{
     width: 15vw;
     height: 10vh;
     display: flex;
-   
   }
+  /* ------------------------------------- */
 
-  /* #sidebar_icon{
-    width: 10vw;
-    height: 5vh;
-    display: flex;
-    justify-content: flex-end;
-    transform: translateY(15px);
-  } */
+
+
+
+
+
+
 
   /*  inside the footer */
   #email{
@@ -117,7 +179,17 @@ body{
     font-size: 3vh;
     
   }
-  
+  /* ------------------------------------------ */
+
+
+
+
+
+
+
+
+
+  /* name over the paragraph */
   #myname{
     display: flex;
     color: #A2B38B;
@@ -126,38 +198,77 @@ body{
     /* align-items: flex-end; */
     gap: 10vw;
   }
+  /* ------------------------------------------ */
   
+
+
+
+
+
+
+
+  /* hover photo */
   #me1{
     border-radius: 70%;
     height: 20vh;
     width: 40vw;
   }
-
   #me1:hover{
     transform: scale(1.5);
     filter: drop-shadow(5px 5px 4px  #FFFBE7);
   }
+/* ------------------------------------------------------ */
 
+
+
+
+
+
+
+
+
+/* pargraph of my resume */
   #pargraph{
    width: 60vw;
    border: 1px;
    color: rgba(0, 0, 0, 0.751);
    padding: 10vw;
   }
+  /* ------------------------------------------------- */
 
+
+
+
+
+
+/* responsible for the location of header\footer logos */
 a{
   color: black;
   width: 30vw;
   color: rgba(0, 0, 0, 0.751);
 }
+/* ---------------------------------------------------------- */
 
+
+
+/* div of git works*/
 #mos{
   display: flex;
   flex-direction: column;
   width: 80vw;
   padding: 10vw;
 }
+/* --------------------------------------- */
 
+
+
+
+
+
+
+
+
+/* animation photos */
 #mof{
   display: flex;
   flex-direction: column;
@@ -183,26 +294,68 @@ a{
   animation-direction: alternate;
   padding: 10vw;
 }
+/* ------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
 li{
   display: flex;
 }
+
+
+
+
+
+
+
+
+/* photo on display none in small screen */
 .photo_fam{
   display: none;
 }
+/* ---------------------------------------- */
+
+
+
+
+
+
+/* gallery font width height */
 #gallery2{
   display: none;
 }
+/* -------------------------------------------- */
+
+
+
+
+
+
+/* whatsapp in the footer img logo */
 #whatsapp{
   width: 10vw;
   height: 5vh;
-  align-self: center;
+  align-self: flex-end;
 }
+/* ---------------------------------------- */
+
+
+
+
+
+
+/* mail in the footer img logo */
 #mail{
   width: 10vw;
   height: 5vh;
-  align-self: center;
+  align-self: flex-end;
 }
-
-
-  
+/* ---------------------------------------------------- */
 

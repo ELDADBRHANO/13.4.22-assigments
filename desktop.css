@@ -1,6 +1,8 @@
 *{
   margin: 0%;
 }
+
+/* container */
 .container{
   width: 100vw;
   height: 100vh;
@@ -12,13 +14,21 @@
   'footer footer footer footer';
   gap: 1vh;
 }
+/* ------------------------------------------- */
 
+
+
+/* header */
 #header{
   grid-area: header;
   background-color: #E9EFC0;
-  /* padding-left: 15vw; */
 }
+/* ---------------------------------------------------- */
 
+
+
+
+/* sidebar */
 .sidebar{
   grid-area: sidebar;
   background-color: #83BD75;
@@ -28,23 +38,36 @@
   line-height: 10vh;
   font-size: larger;
 }
+/* ---------------------------------------- */
 
+
+
+
+/* main */
 #main{
   grid-area: main;
   background-color: #B4E197;
   display: flex;
   justify-content: space-between;
 }
+/* --------------------------------------------------- */
 
+
+
+/* footer */
 #footer{
   background-color:#4E944F;
   grid-area: footer;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-evenly;
 }
+/* ------------------------------------------- */
 
+
+
+
+/* unorder list for logos inside the heder */
 #list{
   display: flex;
   flex-direction: row;
@@ -52,22 +75,32 @@
   list-style-type: none;
   align-content: center;
 }
+/* ----------------------------------- */
 
+
+/* links color\sidebar\header */
 a{
   color: #fd9400;
   text-decoration: none;
 }
+/* ------------------------------- */
+
+
 
 /* inside the footer */
 #email{
   color: rgba(255, 255, 19, 0.733);
   font-size: large;
 }
+/* ------------------------------------ */
+
 
 th{
   color: #FFFBE7;
   font-size: large;
 }
+
+
 
 /* -------------------------------- */
 /* instegram logo */
@@ -120,37 +153,41 @@ th{
 }
 
 /* ------------------------------------ */
+
+
+
 /* pargraph of my resume */
 #pargraph{
  width: 30vw;
  border: 1px;
  color: rgba(0, 0, 0, 0.751);
- /* border: 2px dotted ; */
  font-family:'Noto Serif', serif; 
  padding: 5vh;
 }
 
 /* --------------------------- */
-/* link for piano */
+
+
+
+/* div of git works*/
 #mos{
   width: 30vw;
   border: 1px;
   color: rgba(0, 0, 0, 0.751);
-  /* border: 2px dotted ; */
   font-family:'Noto Serif', serif;
   padding: 5vh;
 }
+/* ------------------------------------------ */
 
+
+
+/* animation photos */
 @keyframes img2 {
-  /* 0% {background-image: url(imges/fam.png);}
-  100%{background-image: url(imges/fam2.png);} */
   0%{background-image: url(imges/me1.png);}
   20%{background-image: url(imges/me3.png);}
   60%{background-image: url(imges/fam.png);}
   100%{background-image: url(imges/fam2.png);}
 }
-
-
 .img2{
   background-image: url(imges/fam.png);
   width: 20vw;
@@ -182,14 +219,34 @@ th{
   grid-area: main;
   animation-direction: alternate;
 }
+/* --------------------------------------------------- */
+
+
+
+
+
+/* gallery font width height */
 #gallery2{
   width: 3vw;
   height: 3vw;
 }
+/* ----------------------------------------- */
+
+
+
+
+
+/* whatsapp in the footer img logo */
 #whatsapp{
   width: 5vw;
   height: 10vh;
 }
+/* --------------------------------- */
+
+
+
+
+/* mail in the footer img logo */
 #mail{
   width: 5vw;
   height: 10vh;
