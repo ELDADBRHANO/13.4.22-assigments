@@ -136,7 +136,8 @@ th{
 #myname{
   display: flex;
   color: #A2B38B;
-  border: 1px solid #A2B38B;
+  border: 5px solid #A2B38B;
+  filter: drop-shadow(5px 1px 4px #A2B38B);
 }
 /* ----------------------------------- */
 
@@ -145,11 +146,12 @@ th{
   border-radius: 70%;
   height: 20vh;
   width: 10vw;
+  transition-duration: 3s;
+  filter: drop-shadow(1px 5px 4px  #B4E197);
 }
 
 #me1:hover{
   transform: scale(1.5);
-  filter: drop-shadow(5px 5px 4px  #fd9400);
 }
 
 /* ------------------------------------ */
@@ -163,6 +165,7 @@ th{
  color: rgba(0, 0, 0, 0.751);
  font-family:'Noto Serif', serif; 
  padding: 5vh;
+ /* filter: drop-shadow(2px 2px ); */
 }
 
 /* --------------------------- */
@@ -250,5 +253,9 @@ th{
 #mail{
   width: 5vw;
   height: 10vh;
+}
+
+p{
+  filter: drop-shadow(1px 1px 0px rgba(2, 3, 3, 0.537) );
 }
 

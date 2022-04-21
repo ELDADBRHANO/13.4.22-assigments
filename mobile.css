@@ -32,6 +32,11 @@ body{
 
 
 
+p{
+  filter: drop-shadow(1px 1px 0px rgba(2, 3, 3, 0.537) );
+}
+
+
 
 
 
@@ -197,6 +202,7 @@ body{
     justify-content: flex-start;
     /* align-items: flex-end; */
     gap: 10vw;
+    filter: drop-shadow(5px 5px 4px  #FFFBE7);
   }
   /* ------------------------------------------ */
   
@@ -212,11 +218,11 @@ body{
     border-radius: 70%;
     height: 20vh;
     width: 40vw;
-  }
-  #me1:hover{
-    transform: scale(1.5);
     filter: drop-shadow(5px 5px 4px  #FFFBE7);
   }
+  /* #me1:hover{
+    transform: scale(1.5);
+  } */
 /* ------------------------------------------------------ */
 
 
